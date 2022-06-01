@@ -11,4 +11,4 @@ USER node
 
 COPY dist .
 
-CMD node main.js
+CMD ["node", "main.js"]
